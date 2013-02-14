@@ -1,0 +1,14 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <ui:style>
+
+    </ui:style>
+    <g:HTMLPanel>
+        <div style="margin: 50px auto">
+            <g:Anchor ui:field="north">Hover for north</g:Anchor>
+            <g:Anchor ui:field="south">Hover for south</g:Anchor>
+            <g:Anchor ui:field="east">Hover for east</g:Anchor>
+            <g:Anchor ui:field="west">Hover for west</g:Anchor>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

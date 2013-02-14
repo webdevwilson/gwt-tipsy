@@ -1,3 +1,8 @@
+@url north north;
+@url south south;
+@url west west;
+@url east east;
+
 .cw-Tipsy {
 	padding: 5px;
 	font-size: 11px;
@@ -19,26 +24,25 @@
 }
 
 .cw-Tipsy-north {
-	background-image: url(/images/tipsy-north.gif);
+	background-image: north;
 	background-position: top center;
 }
 
 .cw-Tipsy-south {
-	background-image: url(/images/tipsy-south.gif);
+	background-image: south;
 	background-position: bottom center;
 }
 
 .cw-Tipsy-east {
-	background-image: url(/images/tipsy-east.gif);
+	background-image: east;
 	background-position: right center;
 }
 
 .cw-Tipsy-west {
-	background-image: url(/images/tipsy-west.gif);
+	background-image: west;
 	background-position: left center;
 }
 
 .cw-Tipsy-west .cw-Tipsy-inner {
 	text-align: left;
 }
-

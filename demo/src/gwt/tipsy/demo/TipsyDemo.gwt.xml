@@ -1,0 +1,7 @@
+<module rename-to="demo">
+    <source path="client"/>
+    <inherits name="com.google.gwt.core.Core" />
+    <inherits name="com.google.gwt.user.User" />
+    <inherits name="gwt.tipsy.Tipsy" />
+    <entry-point class="gwt.tipsy.demo.client.DemoEntryPoint" />
+</module>
